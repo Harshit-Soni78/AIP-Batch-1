@@ -19,14 +19,17 @@ knowledge_base = {
 }
 
 # First of all we will ask user for his name
-user_info = "friend"  # Store collected user information for personalization
+global user_info  # Store collected user information for personalization
+
+user_info = "friend"
 
 def greetAndAskName():
     # Welcome statement
     print("Welcome to the College Admission Q&A Bot! I'm here to help answer your questions about the application process.")
     # Ask Name
     name = input("Before we start, could you please tell me your name? ")
-    user_info["name"] = name
+    global user_info
+    user_info = name
     # Print Greet
     print(f"Nice to meet you, {name}! Feel free to ask me any questions about college admission.")
 
