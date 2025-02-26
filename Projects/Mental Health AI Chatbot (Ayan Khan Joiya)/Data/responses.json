@@ -1,0 +1,62 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": [
+        "Hello! How are you today?",
+        "Hi there! How can I assist you?",
+        "Hey! What’s on your mind?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "take care", "good night"],
+      "responses": [
+        "Goodbye! Take care!",
+        "See you soon! Have a great day!",
+        "Good night! Sleep well!"
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": ["I am happy", "Feeling great", "I'm in a good mood", "Feeling positive"],
+      "responses": [
+        "That's great to hear! Keep up the positivity! 😊",
+        "I'm glad you're feeling good! What made your day special?"
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": ["I feel sad", "I'm down", "Feeling low", "Not in a good mood"],
+      "responses": [
+        "I'm here for you. Want to talk about it?",
+        "It's okay to feel down sometimes. A deep breath might help."
+      ]
+    },
+    {
+      "tag": "anxious",
+      "patterns": ["I'm anxious", "Feeling nervous", "I have anxiety", "I'm worried"],
+      "responses": [
+        "Try deep breathing: Inhale for 4 seconds, hold for 4, and exhale for 4.",
+        "Anxiety can be tough. Have you tried writing down your thoughts?"
+      ]
+    },
+    {
+      "tag": "stressed",
+      "patterns": ["I'm stressed", "Feeling overwhelmed", "Too much on my mind"],
+      "responses": [
+        "Stress can be overwhelming. Have you taken a break today?",
+        "Let's do a quick stress relief exercise together. Breathe in... and out."
+      ]
+    },
+    {
+      "tag": "angry",
+      "patterns": ["I'm angry", "Feeling mad", "I'm upset", "I lost my temper"],
+      "responses": [
+        "Anger is a natural emotion. Try taking a few deep breaths.",
+        "It’s okay to feel upset. Would you like to talk about what's bothering you?"
+      ]
+    }
+  ]
+}
